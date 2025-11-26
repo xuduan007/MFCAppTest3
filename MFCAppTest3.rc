@@ -1,0 +1,169 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include \"afxres.h\"\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include \"res\\MFCAppTest3.rc2\"  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include \"afxres.rc\"          // 标准组件\r\n"
+    "#include \"afxprint.rc\"        // 打印/打印预览资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MFCAppTest3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MFCAppTest3"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MFCAppTest3 版本 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2024",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 350, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MFC 应用程序测试"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    // 欢迎图片
+    CONTROL         "",IDC_STATIC_WELCOME_IMAGE,"Static",SS_ICON | SS_CENTERIMAGE,15,15,80,80
+    
+    // 成功次数显示
+    LTEXT           "成功: 0",IDC_STATIC_SUCCESS_COUNT,15,110,60,15
+    
+    // 失败次数显示
+    LTEXT           "失败: 0",IDC_STATIC_FAILURE_COUNT,15,130,60,15
+    
+    // 随机数字显示
+    LTEXT           "000000",IDC_STATIC_RANDOM_NUMBER,110,30,80,20,SS_CENTER | SS_NOTIFY
+    
+    // 登录按钮
+    PUSHBUTTON      "登录",IDC_BUTTON_LOGIN,110,60,80,25
+    
+    // 输入框
+    EDITTEXT        IDC_EDIT_INPUT,200,60,80,25,ES_AUTOHSCROLL | ES_NUMBER
+    
+    // 标签
+    LTEXT           "请输入6位数字",IDC_STATIC,200,30,80,15,SS_CENTER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX,
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MAIN_DIALOG,
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 MFCAppTest3"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\MFCAppTest3.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"          // 标准组件
+#include "afxprint.rc"        // 打印/打印预览资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

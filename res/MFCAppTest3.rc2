@@ -1,0 +1,5 @@
+//
+// MFCAppTest3.rc2 - 包含 Microsoft Visual C++ 不能编辑的资源
+//
+
+#include "afxres.h"
